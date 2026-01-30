@@ -21,11 +21,9 @@ interface SidebarProps {
 
 const navItems = [
   { icon: LayoutDashboard, label: "Dashboard", href: "/dashboard" },
-  { icon: CreditCard, label: "Cards", href: "/cards" },
-  { icon: Users, label: "Contacts", href: "/contacts" },
+  { icon: CreditCard, label: "Categories", href: "/categories" },
   { icon: RefreshCw, label: "Transactions", href: "/transactions" },
-  { icon: UserCircle, label: "Profile", href: "/profile" },
-  { icon: MessageCircle, label: "Messages", href: "/messages" },
+  { icon: UserCircle, label: "Budget", href: "/budget" },
 ];
 
 export default function Sidebar({ collapsed, onToggle }: SidebarProps) {
@@ -113,7 +111,7 @@ export default function Sidebar({ collapsed, onToggle }: SidebarProps) {
                     ${collapsed ? "justify-center" : ""}
                     ${
                       isActive
-                        ? "bg-gradient-to-r from-purple-500/20 to-pink-500/20 text-white border border-purple-500/30"
+                        ? " text-white border border-purple-500/30"
                         : "text-gray-400 hover:text-white hover:bg-white/5"
                     }
                   `}

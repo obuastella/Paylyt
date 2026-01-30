@@ -17,7 +17,7 @@ export default function LoginPage() {
             Back to home
           </Link>
           <div className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center">
-            <span className="text-sm font-semibold">TF</span>
+            <span className="text-sm font-semibold">PT</span>
           </div>
         </div>
 
